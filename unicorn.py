@@ -18,7 +18,7 @@ TRANSLATIONS = {
     u'attends': u'stash'
 }
 
-BASE_COMMAND = 'get'
+BASE_COMMAND = 'git'
 
 
 def replace_command(command):
