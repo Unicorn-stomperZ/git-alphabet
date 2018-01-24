@@ -1,0 +1,11 @@
+language: python
+python:
+  - "2.7"
+  - "3.4"
+  - "3.5"
+# command to install dependencies
+install: "pip install -r requirements/test.txt coveralls"
+# command to run tests
+script: py.test --cov unicorn.py --cov-report term-missing
+after_success:
+- coveralls
