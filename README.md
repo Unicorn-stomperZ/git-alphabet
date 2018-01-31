@@ -1,8 +1,43 @@
 ## Git Alphabet
 
+### Install
+
+If you don't have it yet, download the virtualenv package
+`pip install virtualenv`
+
+Create a venv for the git-alphabet project
+
+`virtualenv venv`
+
+or
+
+`virtualenv -p /usr/bin/<python_version> <venv_name>`
+to get a specific python version and/or env name.
+
+Run `. venv/bin/activate` to get in your venv.
+
+Get in venv and install project packages :
+
+`pip install -r requirements.txt`
+
+N.B.: In your venv, you have a new version of pip and all packages are installed only there.
+
+When leaving the project, `deactivate` shut down the venv.
+
+
+#### Install Troubleshootings
+
+You might have SSL error while creating virtualenv. It's because of pip.
+Run these commands will fix this error.
+
+```
+sudo apt-get purge --auto-remove python-pip
+sudo easy_install pip==1.2.1
+```
+
 #### Commands
 
-| command                                  | propice                                                         | custom command | Nico c'est quoi dÈj‡ lol? |
+| command                                  | propice                                                         | custom command | Nico c'est quoi d√©j√† lol? |
 |------------------------------------------|-----------------------------------------------------------------|----------------|:-------------------------:|
 | ```[git] attends```                      | stash                                                           |                |             x             |
 | ```[git] balanctonporc```                | push                                                            |                |                           |
@@ -20,7 +55,7 @@
 | ```[git] niquetamere```                  | push force                                                      |                |                           |
 | ```[git] okayyyyyyyy```                  | commit -am                                                      |                |                           |
 | ```[git] parici```                       | checkout                                                        |                |                           |
-| ```[git] quisuisje```                    | tu aimes les filles ou les garÁons ?                            |        x       |                           |
+| ```[git] quisuisje```                    | tu aimes les filles ou les gar√ßons ?                            |        x       |                           |
 | ```[git] ramenetacochonne```             | pull                                                            |                |                           |
 | ```[git] switch```                       | git config --global user.name && git config --global user.email |        x       |                           |
 | ```[git] theend```                       | branch -D (branch_name)                                         |                |                           |
