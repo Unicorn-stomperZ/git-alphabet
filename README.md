@@ -37,7 +37,7 @@ sudo easy_install pip==1.2.1
 
 #### Commands
 
-| command                                  | propice                                                         | custom command | Nico c'est quoi d�j� lol? |
+| command                                  | propice                                                         | custom command | Nico c'est quoi déjà lol? |
 |------------------------------------------|-----------------------------------------------------------------|----------------|:-------------------------:|
 | ```[git] attends```                      | stash                                                           |                |             x             |
 | ```[git] balanctonporc```                | push                                                            |                |                           |
@@ -55,7 +55,7 @@ sudo easy_install pip==1.2.1
 | ```[git] niquetamere```                  | push force                                                      |                |                           |
 | ```[git] okayyyyyyyy```                  | commit -am                                                      |                |                           |
 | ```[git] parici```                       | checkout                                                        |                |                           |
-| ```[git] quisuisje```                    | tu aimes les filles ou les gar�ons ?                            |        x       |                           |
+| ```[git] quisuisje```                    | tu aimes les filles ou les garçons ?                            |        x       |                           |
 | ```[git] ramenetacochonne```             | pull                                                            |                |                           |
 | ```[git] switch```                       | git config --global user.name && git config --global user.email |        x       |                           |
 | ```[git] theend```                       | branch -D (branch_name)                                         |                |                           |

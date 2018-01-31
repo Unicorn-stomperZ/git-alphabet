@@ -23,7 +23,7 @@ setup(
     license='3-clause BSD',
     description='Le git français et WTF',
     author="Thiebaudet Thomas, Grévin Nicolas, Jean-Philippe Maligne",
-    author_email="thomas@thiebaudet.fr, developer@nicolas-grevin.com",
+    author_email="thomas@thiebaudet.fr, developer@nicolas-grevin.com, jpmaligne@gmail.com",
     url='https://github.com/Unicorn-stomperZ/git-alphabet',
     py_modules=['marcel'],
     entry_points={'console_scripts': ['unicorn=unicorn:main']},
