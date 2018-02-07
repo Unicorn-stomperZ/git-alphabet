@@ -5,7 +5,7 @@ python:
   - "3.5"
 
 
-install: "pip install -r requirements/test.txt coveralls"
+install: "pip install -r requirements.txt coveralls"
 
 script: py.test --cov unicorn.py --cov-report term-missing
 
