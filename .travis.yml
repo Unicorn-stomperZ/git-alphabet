@@ -7,7 +7,7 @@ python:
 
 install: "pip install -r requirements.txt coveralls"
 
-script: py.test --cov unicorn.py --cov-report term-missing
+script: py.test --cov=unicorn
 
 after_success:
   - coveralls
