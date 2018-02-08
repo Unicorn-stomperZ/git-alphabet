@@ -10,7 +10,7 @@ inspired by brouberol/marcel <https://github.com/brouberol/marcel/blob/master/se
 import re
 
 from os.path import dirname, join, abspath
-from setuptools import setup, find_packages()
+from setuptools import setup, find_packages
 
 VERSION = re.search(
     r"__version__\s=\s'(\d\.\d\.\d)'",
@@ -34,6 +34,6 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 3',
         'Topic :: Software Development :: Build Tools',
-        ],
+    ],
     packages=find_packages()
 )
